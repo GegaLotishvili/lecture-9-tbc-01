@@ -1,4 +1,34 @@
+.container {
+    width: 1160px;
+    margin: 0 auto;
+}
+
 h2 {
     font-size: 56px;
     color: rgb(0, 255, 4);
+}
+.fa-square-facebook {
+    font-size: 75px;
+    transition: all 0.7s;
+}
+.fa-square-facebook:hover {
+    color: green;
+}
+
+.fa-laptop-code {
+    font-size: 62px;
+    color: red;
+}
+
+.fa-laptop-code:hover {
+    animation: spin 2s infinite linear;
+    color: green;
+}
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
